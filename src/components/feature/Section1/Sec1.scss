@@ -1,50 +1,88 @@
 .sec1_main{
     position: relative;
-    max-width: 1440px;
-    img{
-        width: 100%;
-        height: 640px;
-        object-fit: cover;
-    }
-    .sec1_slide{
-        position: absolute;
-        top: 0px;
-        left: 165px;
-        display: flex;
-        flex-direction: column;
-        row-gap: 42px;
+    .container{
+        max-width: 1440px;
+        margin: auto;
         img{
-            width: 85px;
-            height: 81px;
+            width: 100%;
+            height: 640px;
+            object-fit: cover;
         }
-        width: 420px;
-        height: 640px;
-        padding: 160px 73px;
-        background-color: #826F66;
-        .sec1_text{
+        .sec1_slide{
+            position: absolute;
+            top: 0px;
+            left: 165px;
             display: flex;
             flex-direction: column;
-            row-gap: 21px;
-            p{
-                font-size: 16px;
-                color: #FFFDFB;
-        
+            row-gap: 42px;
+            img{
+                width: 85px;
+                height: 81px;
             }
-            h2{
-                font-size: 36px;
-                color: #FFFDFB;
-                max-width: 245px;
-                align-items: center;
+            width: 420px;
+            height: 640px;
+            padding: 160px 73px;
+            background-color: #826F66;
+            .sec1_text{
+                display: flex;
+                flex-direction: column;
+                row-gap: 21px;
+                p{
+                    font-size: 16px;
+                    color: #FFFDFB;
+            
+                }
+                h2{
+                    font-size: 36px;
+                    color: #FFFDFB;
+                    max-width: 245px;
+                    align-items: center;
+                }
+            }
+            button{
+                padding: 15px 18px;
+                background-color: #FFFFFF;
+                color: #826F66;
+                border: none;
+                width: 220px;
+                height: 40px;
+                cursor: pointer;
             }
         }
-        button{
-            padding: 15px 18px;
-            background-color: #FFFFFF;
-            color: #826F66;
-            border: none;
-            width: 220px;
-            height: 40px;
-            cursor: pointer;
+        button:hover{
+            transform: scale(0.95);
+            transition: 0.1s;
+        }
+        .section1_images_main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 30px;
+            padding: 80px 165px;
+            .section1_images{
+                display: flex;
+                flex-direction: column;
+                row-gap: 23px;
+                max-width: 260px;
+                img{
+                    width: 100%;
+                    height: 260px;
+                }
+                p{
+                    color: #3A3845;
+                    font-size: 18px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+            }
+            .section1_images:hover{
+                overflow: hidden;
+                img{
+                    transform: scale(1.2);
+                    transition: 0.5s;
+
+                }
+            }
         }
     }
 }

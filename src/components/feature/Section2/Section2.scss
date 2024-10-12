@@ -1,69 +1,61 @@
-.section2_main{
-    max-width: 1440px;
-    .sec2_main{
-        display: flex;
-        padding: 80px 165px;
-        column-gap: 30px;
-        justify-content: center;
-        align-items: center;
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 48px;
+    padding: 80px 100px;
+    .container{
         max-width: 1440px;
-            .sec2_main_card{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                max-width: 255px;
-                row-gap: 23px;
-                img{
-                    width: 255px;
-                    height: 255px;
-                }
-                p{
-                    font-size: 18px;
-                    font-weight: 600;
-                    color: #3A3845;
-                    text-align: center;
-                }
-            }
-        
-    }
-    .mid_content{
+        margin: auto;
         display: flex;
         justify-content: center;
-
-        .mid_content_text{
+        flex-wrap: wrap;
+        gap: 25px;
+        .section2_main{
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            row-gap: 30px;
-            max-width: 555px;
-            background-color: #F7F6F5;
-            padding: 64px 83px;
-            h2{
-                max-width: 365px;
-                font-size: 28px;
-                font-weight: 700;
-                color: #3A3845;
-                text-align: center;
-            }
-            p{
-                max-width: 365px;
-                font-size: 16px;
-                font-weight: 400;
-                color: #595667;
-                text-align: center;
+            row-gap: 54px;
+            max-width: 255px;
+            .section2_items{
+                display: flex;
+                flex-direction: column;
+                row-gap: 24px;
+                height:470px;
+                img{
+                    width: 100%;
+                    height: 320px;
+                }
+                h2{
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #3A3845;
+                }
+                p{
+                    color: #807F86;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
             }
             button{
-                font-size: 18px;
                 padding: 15px 18px;
-                border: none;
-                text-decoration: underline;
-                color: #807F86;
-                background-color: #F7F6F5;
-                font-weight: 900;
+                width: 100%;
+                color: #3A3845;
+                background-color: white;
+                border: 1px solid #3A3845;
                 cursor: pointer;
+            }
+            button:hover{
+                transform: scale(0.95);
+                transition: 0.1s;
+            }
+        }
+        .section2_items:hover{
+            overflow: hidden;
+            img{
+                transform: scale(1.2);
+                transition: 0.5s;
             }
         }
     }
-
 }
