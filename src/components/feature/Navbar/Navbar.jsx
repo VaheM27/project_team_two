@@ -1,29 +1,79 @@
-import icon from"../../../asets/images/logo.png";
-import searchlogo from"../../../asets/images/Search.png";
-import avatarlogo from"../../../asets/images/Avatar.png";
-import heartlogo from"../../../asets/images/Heart.png";
-import shopinglogo from"../../../asets/images/Shopping cart.png";
+import icon from"../../../assets/images/Nav_images/logo.png";
+import searchlogo from"../../../assets/images/Nav_images/Search.png";
+import avatarlogo from"../../../assets/images/Nav_images/Avatar.png";
+import heartlogo from"../../../assets/images/Nav_images/Heart.png";
+import shopinglogo from"../../../assets/images/Nav_images/Shopping cart.png";
 
 
 
-import "./Navbar.css";
+import "./Navbar.scss";
+import { nanoid } from "nanoid";
 
 
 export default function Navbar() {
+  const images = [
+    {
+      img: searchlogo,
+      id: nanoid(4),
+    },
+    {
+      img: avatarlogo,
+      id: nanoid(4),
+    },
+    {
+      img: heartlogo,
+      id: nanoid(4),
+    },
+    {
+      img: shopinglogo,
+      id: nanoid(4),
+    },
+  ]
+
+  const navItems = [
+    {
+      name: 'Home',
+      id: nanoid(4)
+    },
+    {
+      name: 'Shop',
+      id: nanoid(4)
+    },
+    {
+      name: 'About',
+      id: nanoid(4)
+    },
+    {
+      name: 'Contact',
+      id: nanoid(4)
+    },
+  ]
   return <div>
-    <img src={icon} alt="" className="icon"/>
-    <ul>
-      <li>Home</li>
-      <li>Shop</li>
-      <li>About</li>
-      <li>Contact</li>
-    </ul>
-    <div className="images">
-    <img src={searchlogo} alt="" />
-    <img src={avatarlogo} alt="" />
-    <img src={heartlogo} alt="" />
-    <img src={shopinglogo} alt="" />
-    </div>
+    <nav>
+      <div className="container">
+          <div className="nav_main">
+              <img src={icon} alt="" />
+              <ul>
+                {
+                  navItems.map((item)=>{
+                    return(
+                      <li key={item.id}>{item.name}</li>
+                    )
+                  })
+                }
+              </ul>
+              <div className="navImages">
+                {
+                  images.map((item)=>{
+                    return(
+                      <img src={item.img} alt="" key={item.id}/>
+                    )
+                  })
+                }
+              </div>
+          </div>      
+      </div>
+    </nav>
     
 
   </div>;
