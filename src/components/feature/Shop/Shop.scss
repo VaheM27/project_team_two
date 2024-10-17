@@ -1,0 +1,112 @@
+.shop_main {
+    padding: 60px;
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    .shop_categories_main {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        .shop_categories_buttons{
+            display: flex;
+            column-gap: 25px;
+        }
+        .shop_button{
+            padding: 15px 18px;
+            background-color: white;
+            color: #3A3845;
+            border: 1px solid #3A3845;
+            cursor: pointer;
+        }
+        hr {
+            width: 100%;
+            color: #374151;
+        }
+
+        .shop_categories {
+            font-size: 14px;
+            font-weight: 600;
+            color: #3A3845;
+        }
+
+        .shop_categories_item {
+            display: flex;
+            gap: 15px;
+
+            .shop_categories_name {
+                font-size: 14px;
+                font-weight: 400;
+                color: #374151;
+            }
+        }
+    }
+
+    .shop_main_items {
+        max-width: 830px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        .shop_item {
+            display: flex;
+            flex-direction: column;
+            row-gap: 38px;
+            max-width: 255px;
+
+            .shop_item_div {
+                display: flex;
+                flex-direction: column;
+                row-gap: 24px;
+                height: 450px;
+
+                .shop_image_div {
+                    height: 325px;
+                    width: 255px;
+
+                    .shop_image {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .shop_image_div:hover {
+                    overflow: hidden;
+
+                    .shop_image {
+                        transform: scale(1.3);
+                        transition: 0.5s;
+                    }
+                }
+
+                .shop_item_name {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #3A3845;
+                }
+
+                .shop_item_price {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #3A3845;
+                }
+
+                .shop_item_desc {
+                    max-width: 255px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #807F86;
+                }
+            }
+
+            .shop_button {
+                border: 1px solid #3A3845;
+                padding: 15px 18px;
+                color: #3A3845;
+                width: 100%;
+                background-color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
