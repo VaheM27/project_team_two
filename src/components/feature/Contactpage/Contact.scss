@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.slideerimg{
+    
+    margin: auto;
+    padding-left: 50px;
+}
+.contactPageText{
+    text-align: center;
+    p{
+       color:  #C69B7B;
+       ; 
+    }
+}
+
+.input{
+    text-align: center;
+    width: 840px;
+    margin: auto; 
+    display: flex;
+    gap: 20px;
+   
+    h5{
+        text-align: left;
+    }
+    input{
+        width: 410px;
+        height: 55px;
+        display: block;
+    }
+    
+}
+.inputMasage{
+    width: 840px;
+    margin: auto;
+    input{
+        width: 840px;
+        height: 100px;
+       
+    }
+    button{
+        background-color: black;
+        width: 100%;
+        text-align: center;
+         color: white;
+         height: 40px;
+    }
+    .btnimg{
+        width: 20px;
+        height: 13px;
+        margin: auto;
+    }
+}
