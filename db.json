@@ -81,5 +81,51 @@
         {
             "name" : "Gifts sets"
         }
+    ],
+    "aboutImages":[
+        {
+            "image" : "https://s3-alpha-sig.figma.com/img/2079/41fd/0bd8d3a7e38cac28e6b1c00e7173c913?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b2ZJYXRxvsPolaRQZr0lFRbcexLFORPEXTcwB4sl9QEdmVaa5z3wlTkyVB2RtkuxR7~8QdajFIRkC81x1nw98b3TrZ8Yr00UB31B0L53k6wwVv-MUv9odPy~1dUOBaDQ3sINw8bWCIbyigt~h8Llq~xK5pRWP~yEBSgS6ZZb6cRGGUspEpArCqf54bCp568TRkgPqKTCFBa7grSsln4FVOh-4kKsmJktvEAXZLg2HMDABps6JXKF4NJc8knC2-BVVBPT~S5ruqkOS10NiXWGMcY8oQoKwLUptyASqgvLO~Ycnz73V6-eycHzMNPF-Vgmt8lGAF4YiZnmn3OScGeu7A__",
+            "id" : "nanoid(4)",
+            "year" : "1910",
+            "desc" : "Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam neque ultrices."
+        },
+        {
+            "image" : "https://s3-alpha-sig.figma.com/img/f10a/65b2/22fd928555f2ca4ab9f3bbc4f74801e1?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lsXaAM93nIDVuaiGSPTPxg9FcaJ6WXTr-6cOK7rLAExlQr3VagkQfQkchldSeQ7wSSV7-wLX85TWbrNxNx426INC3l5RPfvqZaeEu86FXhikc5uq20h~GhdLzjzM~5E8-PVBmbF3MzInl32kNHSJDFp3ZzlJ6x-WDKQMm69mCzyaXbDxmlOTT2CLEKKJ49j5GplG7ExUXZ4sK4YW-cgv22TxLV4d77fa~I18dgts8sU9vGO5~wRXfPjiHGI4uXjVl1eVuQRftARNRmH6NWdwlAAZsnnq~V9fcevOm2WDLbG32fOJJxTRDKG1sZ4l9t0jH2nfRxBtKja6yCAA7c5zFQ__",
+            "id" : "nanoid(4)",
+            "year" : "1990",
+            "desc" : "Maecenas sem eros, rutrum vitae risus eget, vulputate aliquam nisi. dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit "
+        },
+        {
+            "image" : "https://s3-alpha-sig.figma.com/img/4ef8/b4cd/7c13e88cc61f91c56b21e457688b558b?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=REyQFTdpD2BXUyYn-n50aAF9dHp6nVUQ-INzSFRoREOozA86i3CBaQAEgdvw-aUfDWoVR2HmDVU0TwYOUJFN~EJx7ibXj3l70OIpmc1g-rsGl5GnnpPG5bpvRBtC4J9~oPEm4Kzph4xAWipqo85LXFNNomfDpiE4dxgG6wef9GDZe6OkBOGXX3hfpQxoyg71cxEIKUl5Br8b0ZlSP2-F8lnDmzgkCyQYdrvJC2LXrKt81TKqNgCUoA-Y~onWA1eRVB-IGJ46g4A~wd~oYUo~CbugLazmHN3v4WT3s383RYCeorqtd8tQyVkYF0EYMG7geUz3zIUClCIUIQTRxdf8UQ__",
+            "id" : "nanoid(4)",
+            "year" : "2010",
+            "desc" : "Rutrum vitae risus eget, vulputate aliquam nisi ex gravida neque tempus. sit aliquam sit nullam neque ultrices."
+        }
+    ],
+    "team" : [
+        {
+            "image" : "https://s3-alpha-sig.figma.com/img/b1c9/67d9/9a4a6f173ea5b60bd5d6020b1b23c461?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KX51zoTpWzSuB1o44HzWYsgOQQrY3ZKC5Fuy8RqDYyjePYBWbcnTgRQBFaYkOIur-XNSkFWieDkeJeM5CuE9xmPDKlGprxSxpsCf1zoTfGdFcl8B8lSVhSsw7wzdqWbMMtcdiBjq-i6S85xlNGVnWxr9CuzBCbJ1dpVU8On49doy4k~qUa2VQk7sOgjGEVy7TrceMrfti40qlTsmpopJm9LEBrGSKrwDSA2OjATNjASmmgTZR8SbtNp4te6PZ~cvAGR8MVBb8kNVDPDKHC6r1cY1jguDOK5E~IguaRpRF~xvLAHy5GtiTa~F1q9oSrCXrbRIJ1hj0VoMg0kT82iNcA__",
+            "id" : "nanoid(4)",
+            "name" : "Bernie PATTERSON",
+            "profession": "CEO & Founder"
+        },
+        {
+            "image" : "https://s3-alpha-sig.figma.com/img/4817/1171/96d218d07c0c5bfea1e26cf88ff312a3?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nPw0SZoVx3UCKD6EhszZWUQ52iv2TdymRrUJTofV~3oM69IZ7EKIJArFabWxnua7zB9sOdyKIY9CDQHWuwQvc5rdU8sQAUZ2dxm22QrOW~R7JQPdKXXiKviHbCD1FztkcEc78x59Z1aM6j0byJ2aYPhP2AXWa3DLkRqGmNGu0rr~0VcTngdX5Vnq-GV4bUNNL4l2gqRcPJhpeOa3N~97oC1Xyq-ZXPSClDNG01n1FmoZ-2FDjRuA4kWAcaX1OblpK93TWX-XMII0VqxSwuCMsCkPZns8LLbjMS9wj-kyg2xPZoEb9uAFm9tBQbBvkUpqZK8isDmoXLofshoitE0~vA__",
+            "id" : "nanoid(4)",
+            "name" : "Ophelia Vase",
+            "profession": "Creative Director"
+        },
+        {
+            "image" : "https://s3-alpha-sig.figma.com/img/3f92/9226/ca3ae3030a96b47beffc35508bf6e66f?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Y8e~xVC9QIZpNUBHLmSnWYA9cWquZNpaOXbet7HWOmI-K5jCjMFLZpK3puIffmvjGCeAPgmJrEOMwu5J0PRh7Sly5eUsnEsFKCQG0ZCSx1S6gZz3dRw~tWpgyaFMBbjXP-Y2Mc2sEghOcZNZ32A8pEA8pn4cq4FaN5sPnF7mJVRFW5Vc0KvBc8tTugyu0BFbknB-a2YASpFYd6NqmfBE2Ub9lDCYUOVJ4bYRwVPjzbwPUDiFzZf~H-IJagHjlJH5dzowauZFUJSBBJ7Vaz96SP5YYugB5eY0yzLy0Vm4gZLHv1TF-GAT8sOtoBCK8IM39sfUmiBi7U7SKtTPRfsgDw__",
+            "id" : "nanoid(4)",
+            "name" : "CorbiN HOSSAIN",
+            "profession": "Artist"
+        },
+        {
+            "image" : "https://s3-alpha-sig.figma.com/img/584e/6e1e/3e1573606face44585ba91d53d528eaf?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ckhTnKsvSOmjG9V1MPhxWRej9dKi4QN6tkQZq4yYac7ldJGcb6G1bnmJdkz9V4SK3chUDSaA6LsfjQkp6yMXogmEgTBcugVhuTTXQrGRxOn046s9cslnbFYmmSRIXVhslSbes-fzr39iINg6k3hSs~0mwwGkPO22UPPteWfD0W-nT-rJlZPQ3lm-Ebr83cHT~i2-GKmE63fYiJ~sJW05wIxFkF~inQSiuBK2vYAkDwchtgKauqH-hGJRVjXx64GnKp3fB5vVmymhxBOofSZ5AagcAz3f47TdfWCb28sSUfv1~QhOqTToBbHYMeT1Nc0QaIasCqbKXcLeJC5r0VLNjQ__",
+            "id" : "nanoid(4)",
+            "name" : "Seren Bowl",
+            "profession": "Marketing"
+        }
     ]
 }

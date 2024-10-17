@@ -1,9 +1,9 @@
 import { nanoid } from 'nanoid'
+import { useEffect, useState } from 'react'
+import axios from 'axios'
+
 
 import './Shop.scss'
-import axios from 'axios'
-import { useEffect, useState } from 'react'
-
 
 const Shop = () => {
     const [image, setImage] = useState([])

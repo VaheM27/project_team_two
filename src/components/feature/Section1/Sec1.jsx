@@ -1,5 +1,4 @@
 import React from "react";
-import "./Sec1.scss";
 import image1 from '../../../assets/images/Sec1_images/Image.png'
 import image2 from '../../../assets/images/Sec1_images/Image (1).png'
 import image3 from '../../../assets/images/Sec1_images/Image (2).png'
@@ -7,6 +6,9 @@ import image4 from '../../../assets/images/Sec1_images/Image (3).png'
 import img from '../../../assets/images/Sec1_images/coffe.png'
 import icon from '../../../assets/images/Sec1_images/Icon.png'
 import { nanoid } from "nanoid";
+
+import "./Sec1.scss";
+
 
 
 const Sec1 = () => {

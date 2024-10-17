@@ -3,11 +3,11 @@ import searchlogo from"../../../assets/images/Nav_images/Search.png";
 import avatarlogo from"../../../assets/images/Nav_images/Avatar.png";
 import heartlogo from"../../../assets/images/Nav_images/Heart.png";
 import shopinglogo from"../../../assets/images/Nav_images/Shopping cart.png";
+import { nanoid } from "nanoid";
 
 
 
 import "./Navbar.scss";
-import { nanoid } from "nanoid";
 
 
 export default function Navbar() {
