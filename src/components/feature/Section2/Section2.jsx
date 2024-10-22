@@ -80,7 +80,7 @@ const Section2 = () =>{
                         return(
                             <div key={item.id} className='section2_main'>
                                 <div className='section2_items'>
-                                    <img src={item.image} alt="" />
+                                    <div className='sec2_image_div'><img src={item.image} alt="" /></div>
                                     <h2>{item.name}</h2>
                                     <h2>{item.price}</h2>
                                     <p>{item.desc}</p>

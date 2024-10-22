@@ -53,7 +53,7 @@ const Sec1 = () => {
           images.map((item)=>{
             return(
               <div key={item.id} className="section1_images">
-                <img src={item.image} alt="" />
+                <div className="sec1_img_div"><img src={item.image} alt="" /></div>
                 <p>{item.name}</p>
               </div>
             )

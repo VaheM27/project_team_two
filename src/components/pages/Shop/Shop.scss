@@ -61,23 +61,23 @@
                 height: 450px;
 
                 .shop_image_div {
+                    cursor: pointer;
                     height: 325px;
                     width: 255px;
+                    overflow: hidden;
+                    img:hover{
+                        transform: scale(1.3);
+                        transition: 0.5s;
+                    }
 
                     .shop_image {
                         width: 100%;
                         height: 100%;
+                        
                     }
                 }
 
-                .shop_image_div:hover {
-                    overflow: hidden;
-
-                    .shop_image {
-                        transform: scale(1.3);
-                        transition: 0.5s;
-                    }
-                }
+                
 
                 .shop_item_name {
                     font-size: 14px;
